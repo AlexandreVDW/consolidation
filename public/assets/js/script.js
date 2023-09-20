@@ -2,7 +2,7 @@ let collection = document.querySelector(".collection");
 
 let objets = [
   {
-    image: "/public/assets/img/stardew.jpg",
+    image: "./public/assets/img/stardew.jpg",
     nom: "Stardew Valley",
     parution: "26 févr. 2016",
     developpement:"ConcernedApe",
@@ -13,7 +13,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/413150/Stardew_Valley/",
   },
   {
-    image: "../public/assets/img/moonlighter.jpg",
+    image: "./public/assets/img/moonlighter.jpg",
     nom: "Moonlighter",
     parution: "29 mai 2018",
     developpement:"Digital Sun",
