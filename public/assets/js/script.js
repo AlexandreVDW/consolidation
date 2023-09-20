@@ -2,7 +2,7 @@ let collection = document.querySelector(".collection");
 
 let objets = [
   {
-    image: "../public/assets/img/stardew.jpg",
+    image: "./public/assets/img/stardew.jpg",
     nom: "Stardew Valley",
     parution: "26 févr. 2016",
     developpement:"ConcernedApe",
@@ -13,7 +13,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/413150/Stardew_Valley/",
   },
   {
-    image: "../public/assets/img/moonlighter.jpg",
+    image: "./public/assets/img/moonlighter.jpg",
     nom: "Moonlighter",
     parution: "29 mai 2018",
     developpement:"Digital Sun",
@@ -24,7 +24,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/606150/Moonlighter/",
   },
   {
-    image: "../public/assets/img/isaac.jpg",
+    image: "./public/assets/img/isaac.jpg",
     nom: "The Binding of Isaac: Afterbirth",
     parution: "3 janv. 2017",
     developpement:"Edmund McMillen",
@@ -35,7 +35,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/",
   },
   {
-    image: "../public/assets/img/risk.jpg",
+    image: "./public/assets/img/risk.jpg",
     nom: "Risk Of Rain 2",
     parution: "11 aout 2020",
     developpement:"Hopoo Games",
@@ -46,7 +46,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/632360/Risk_of_Rain_2/",
   },
   {
-    image: "../public/assets/img/hollow.jpg",
+    image: "./public/assets/img/hollow.jpg",
     nom: "Hollow Knight",
     parution: "24 févr. 2017",
     developpement:"Hopoo Games",
@@ -57,7 +57,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/367520/Hollow_Knight/",
   },
   {
-    image: "../public/assets/img/lamb.jpg",
+    image: "./public/assets/img/lamb.jpg",
     nom: "Cult of the Lamb",
     parution: "11 aout 2022",
     developpement:"Massive Monster",
@@ -68,7 +68,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/",
   },
   {
-    image: "../public/assets/img/darkest.jpg",
+    image: "./public/assets/img/darkest.jpg",
     nom: "Darkest Dungeon®",
     parution: "19 janv. 2016",
     developpement:"Red Hook Studios",
@@ -79,7 +79,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
   },
   {
-    image: "../public/assets/img/darkest2.jpg",
+    image: "./public/assets/img/darkest2.jpg",
     nom: "Darkest Dungeon® II",
     parution: "8 mai 2023",
     developpement:"Red Hook Studios",
@@ -90,7 +90,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/1940340/Darkest_Dungeon_II/",
   },
   {
-    image: "../public/assets/img/enter.jpg",
+    image: "./public/assets/img/enter.jpg",
     nom: "Enter the Gungeon",
     parution: "5 avr. 2016",
     developpement:"Dodge Roll",
@@ -101,7 +101,7 @@ let objets = [
     lien: "https://store.steampowered.com/app/311690/Enter_the_Gungeon/",
   },
   {
-    image: "../public/assets/img/exit.jpg",
+    image: "./public/assets/img/exit.jpg",
     nom: "Exit the Gungeon",
     parution: "17 mars 2020",
     developpement:"Dodge Roll",
