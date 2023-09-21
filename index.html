@@ -15,7 +15,13 @@
         <img class="w-full" src="./public/assets/img/background.jpg" alt="Une image avec des jeux indés et écrit indéfiniment">
         <h1 class="absolute top-0 left-0 right-0 py-2 text-steamWhite text-center text-xl sm:text-3xl md:text-6xl lg:text-8xl">Collection de jeux vidéos indépendants</h1>
         <p class="absolute bottom-0 left-0 right-0 top-3/4 py-2 text-steamWhite text-center sm:text-lg md:text-1xl lg:text-3xl mb-20">Voici quelques jeux indépendants que j'ai joué et que je vous conseille de tester :</p>
-    </header>    
+    </header> 
+
+    <label for="sortOrder" class="text-steamWhite">Trier par :</label>
+    <select id="sortOrder" class="p-2">
+        <option value="asc">Ordre alphabétique croissant</option>
+        <option value="desc">Ordre alphabétique décroissant</option>
+    </select>
 
     <div class="collection grid grid-cols-1   gap-2 sm:grid-cols-1 md:grid-cols-3 ">
     </div>
@@ -24,5 +30,6 @@
         Votre navigateur ne supporte pas l'élément audio.
     </audio>
 </body>
+<script src="./public/assets/js/objets.js"></script>
 <script src="./public/assets/js/script.js"></script>
 </html>
