@@ -12,6 +12,9 @@ module.exports = {
         steamDarkGray: '#171a21', // Couleur grise foncée de Steam
         steamWhite: '#c7d5e0', // Couleur blanche de Steam
       },
+      height: {
+        '38': '9.5rem',
+      }
     },
   },
   plugins: [],
