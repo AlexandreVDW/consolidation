@@ -191,16 +191,6 @@ let objets = [
       lien: "https://store.steampowered.com/app/599140/Graveyard_Keeper/",
     },
     {
-      image: "./public/assets/img/graveyard.jpg",
-      nom: "Graveyard Keeper",
-      parution: "15 aout 2018",
-      developpement:"Lazy Bear Games",
-      edition:"tinyBuild",
-      description:"Par les créateurs de Punch Club ! Voici Graveyard Keeper, la simulation de gestion de cimetière médiéval la moins authentique de tous les temps." ,
-      more: "learn more",
-      lien: "https://store.steampowered.com/app/599140/Graveyard_Keeper/",
-    },
-    {
       image: "./public/assets/img/terraria.jpg",
       nom: "Terraria",
       parution: "16 mai 2011",
