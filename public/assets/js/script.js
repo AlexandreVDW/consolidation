@@ -42,7 +42,7 @@ function sortItems(order) {
 
     const description = document.createElement("p");
       description.textContent = objet.description;
-      description.classList.add("py-2", "text-steamWhite","h-40");
+      description.classList.add("py-2", "text-steamWhite");
       card.appendChild(description);
 
     const edition = document.createElement("p");
